@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34909.67
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarbonTreasureMap_ConsoleApp", "CarbonTreasureMap_ConsoleApp\CarbonTreasureMap_ConsoleApp.csproj", "{2B248E9D-D939-4903-B03E-53B0BE03D6AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarbonTreasureMap_Domain", "CarbonTreasureMap_Domain\CarbonTreasureMap_Domain.csproj", "{A265013B-A8B8-48EB-A47A-9EDF8197AE98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess_Files", "DataAccess_Files\DataAccess_Files.csproj", "{224E50C4-5E10-4C05-AB47-41BF62BCA819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE5BADD8-DC0C-427C-B648-0CF6FF5BEBA9}"
+	ProjectSection(SolutionItems) = preProject
+		SampleMaps\Sample1.txt = SampleMaps\Sample1.txt
+		SampleMaps\Sample2.txt = SampleMaps\Sample2.txt
+		SampleMaps\Sample3.txt = SampleMaps\Sample3.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGame", "TestGame\TestGame.csproj", "{2FD4D94D-3051-4176-A8EA-E1DED46CC6E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B248E9D-D939-4903-B03E-53B0BE03D6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B248E9D-D939-4903-B03E-53B0BE03D6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B248E9D-D939-4903-B03E-53B0BE03D6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B248E9D-D939-4903-B03E-53B0BE03D6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A265013B-A8B8-48EB-A47A-9EDF8197AE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A265013B-A8B8-48EB-A47A-9EDF8197AE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A265013B-A8B8-48EB-A47A-9EDF8197AE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A265013B-A8B8-48EB-A47A-9EDF8197AE98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224E50C4-5E10-4C05-AB47-41BF62BCA819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224E50C4-5E10-4C05-AB47-41BF62BCA819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224E50C4-5E10-4C05-AB47-41BF62BCA819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224E50C4-5E10-4C05-AB47-41BF62BCA819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD4D94D-3051-4176-A8EA-E1DED46CC6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD4D94D-3051-4176-A8EA-E1DED46CC6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD4D94D-3051-4176-A8EA-E1DED46CC6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD4D94D-3051-4176-A8EA-E1DED46CC6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC30A632-60C2-4E4C-8888-2DFB99FF481E}
+	EndGlobalSection
+EndGlobal
